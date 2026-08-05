@@ -124,3 +124,33 @@ footer{
   padding:20px;
   font-size:15px;
 }
+.reviews{
+    padding:60px 20px;
+    background:#ffffff;
+    text-align:center;
+}
+
+.reviews h2{
+    font-size:32px;
+    margin-bottom:30px;
+    color:#0d6efd;
+}
+
+.review-card{
+    background:#f8f9fa;
+    max-width:500px;
+    margin:20px auto;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.review-card p{
+    font-size:18px;
+    color:#333;
+    margin:15px 0;
+}
+
+.review-card h4{
+    color:#0d6efd;
+}
