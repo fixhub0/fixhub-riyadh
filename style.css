@@ -154,3 +154,31 @@ footer{
 .review-card h4{
     color:#0d6efd;
 }
+.reviews{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.review-card{
+    background:#fff;
+    max-width:500px;
+    margin:20px auto;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.review-card p{
+    font-size:18px;
+    line-height:1.6;
+}
+
+.review-card h4{
+    color:#0d6efd;
+    margin-top:15px;
+}
+
+.stars{
+    font-size:24px;
+    color:gold;
+}
