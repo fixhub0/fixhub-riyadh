@@ -182,3 +182,18 @@ footer{
     font-size:24px;
     color:gold;
 }
+/* Sticky WhatsApp Button */
+.sticky-whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 9999;
+}
