@@ -210,3 +210,18 @@ footer{
     border-radius:12px;
     display:block;
 }
+.areas-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:12px;
+    margin-top:20px;
+}
+
+.area-card{
+    background:#fff;
+    padding:15px 10px;
+    border-radius:12px;
+    text-align:center;
+    font-weight:bold;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
