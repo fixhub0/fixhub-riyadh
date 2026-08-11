@@ -12,7 +12,7 @@ body{
 header{
   background:
     linear-gradient(rgba(7,26,51,0.78),rgba(11,79,138,0.78)),
-    url("electrician.jpg") center/cover no-repeat;
+    url url("electrician.jpg")center/cover no-repeat;
   color:#fff;
   text-align:center;
   padding:80px 20px 60px;
