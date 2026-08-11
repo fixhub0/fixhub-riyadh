@@ -10,10 +10,14 @@ body{
 }
 
 header{
-  background:linear-gradient(135deg,#0d6efd,#003b8e);
-  color:white;
+  background:
+    linear-gradient(rgba(7,26,51,0.78),rgba(11,79,138,0.78)),
+    url("electrician.jpg") center/cover no-repeat;
+  color:#fff;
   text-align:center;
-  padding:60px 20px;
+  padding:80px 20px 60px;
+  border-radius:0 0 25px 25px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.15);
 }
 
 h1{
