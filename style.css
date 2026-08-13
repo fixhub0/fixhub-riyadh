@@ -424,3 +424,38 @@ footer{
     margin-top:18px;
   }
 }
+/* ABOUT MOBILE - FULL WIDTH */
+
+@media (max-width:700px){
+
+  .about-section{
+    width:100vw !important;
+    max-width:none !important;
+    margin-top:35px !important;
+    margin-bottom:35px !important;
+    margin-left:calc(50% - 50vw) !important;
+    margin-right:0 !important;
+    border-radius:0 !important;
+    overflow:hidden !important;
+    box-sizing:border-box !important;
+  }
+
+  .about-image{
+    width:100% !important;
+    height:230px !important;
+    min-height:230px !important;
+  }
+
+  .about-image img{
+    width:100% !important;
+    height:100% !important;
+    object-fit:cover !important;
+  }
+
+  .about-content{
+    width:100% !important;
+    box-sizing:border-box !important;
+    padding:32px 20px 40px !important;
+  }
+
+}
