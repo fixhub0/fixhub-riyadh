@@ -424,3 +424,25 @@ footer{
     margin-top:18px;
   }
 }
+@media (max-width:700px){
+
+  .about-section{
+    width:calc(100% - 24px) !important;
+    max-width:none !important;
+    margin:35px 12px !important;
+    padding:0 !important;
+    box-sizing:border-box;
+  }
+
+  .about-image{
+    width:100% !important;
+    height:230px;
+    min-height:230px;
+  }
+
+  .about-content{
+    width:100% !important;
+    box-sizing:border-box;
+    padding:30px 20px 35px;
+  }
+}
