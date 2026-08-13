@@ -467,3 +467,80 @@ footer{
   }
 
 }
+/* SERVICE AREAS */
+
+.areas{
+  background:linear-gradient(135deg,#071f3d,#0b4779);
+  padding:50px 20px;
+  text-align:center;
+  color:#fff;
+}
+
+.areas h2{
+  color:#fff;
+  font-size:32px;
+  margin:0 0 30px;
+}
+
+.areas-grid{
+  max-width:800px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:15px;
+}
+
+.areas-grid div{
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(245,181,43,.45);
+  color:#fff;
+  padding:18px 10px;
+  border-radius:14px;
+  font-size:17px;
+  font-weight:bold;
+  transition:.3s;
+}
+
+.areas-grid div:before{
+  content:"📍";
+  display:block;
+  font-size:22px;
+  margin-bottom:6px;
+}
+
+.areas-grid div:hover{
+  background:#f5b52b;
+  color:#071f3d;
+  transform:translateY(-3px);
+}
+
+
+/* MOBILE */
+
+@media (max-width:700px){
+
+  .areas{
+    padding:40px 15px;
+  }
+
+  .areas h2{
+    font-size:28px;
+    margin-bottom:22px;
+  }
+
+  .areas-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:12px;
+  }
+
+  .areas-grid div{
+    padding:16px 8px;
+    font-size:15px;
+    border-radius:12px;
+  }
+
+  .areas-grid div:before{
+    font-size:20px;
+  }
+
+}
