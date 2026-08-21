@@ -608,3 +608,40 @@ footer{
     text-align: center;
     border-radius: 15px;
 }
+/* FIX SERVICE AREAS WIDTH */
+.areas{
+    width:100%;
+    max-width:100%;
+    box-sizing:border-box;
+    margin:0;
+    padding:30px 10px;
+}
+
+.areas-grid{
+    width:100%;
+    max-width:100%;
+    box-sizing:border-box;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:10px;
+    margin:0 auto;
+}
+
+.areas-grid div{
+    width:100%;
+    box-sizing:border-box;
+    padding:15px 5px;
+    font-size:16px;
+}
+
+/* MOBILE */
+@media (max-width:700px){
+    .areas{
+        padding:30px 8px;
+    }
+
+    .areas-grid{
+        grid-template-columns:repeat(2, 1fr);
+        gap:8px;
+    }
+}
