@@ -102,7 +102,7 @@ p{
 }
 .areas{
   background:linear-gradient(135deg,#071f3d,#0b4779);
-  padding:50px 20px;
+  padding:30px 15px;
   text-align:center;
   color:#fff;
 }
@@ -117,8 +117,8 @@ p{
   max-width:800px;
   margin:0 auto;
   display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:15px;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px;
 }
 
 .areas-grid div{
@@ -151,7 +151,7 @@ p{
 
   .areas-grid{
     grid-template-columns:repeat(2,1fr);
-    gap:12px;
+    gap:10px;
   }
 
   .areas-grid div{
