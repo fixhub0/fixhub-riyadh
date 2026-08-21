@@ -576,3 +576,35 @@ footer{
   }
 
 }
+/* Service Areas */
+.areas {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px 10px;
+    margin: 0;
+}
+
+.areas h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.areas-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    box-sizing: border-box;
+}
+
+.areas-grid > div {
+    width: 100%;
+    min-height: 85px;
+    padding: 15px 8px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
